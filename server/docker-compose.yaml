@@ -1,0 +1,28 @@
+version: '3.3'
+
+services:
+  db:
+    image: mysql
+    container_name: db
+    volumes:
+      - d:/mysql:/var/lib/mysql
+      - .\docker\initdb.d:/docker-entrypoint-initdb.d
+    restart: always
+    environment:
+      MYSQL_DATABASE: gowebtemplate
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: XrJfJaXM8KZxuZ2zsfx4nQ
+      MYSQL_ROOT_PASSWORD: rootpw
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+  redis:
+    container_name: redis
+    image: redis
+    ports:
+      - '6379:6379'
+    expose:
+      - '6379'
+volumes:
+  db_data: {}

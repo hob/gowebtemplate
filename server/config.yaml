@@ -1,0 +1,8 @@
+csrfTokenKey: 9c5c16d15068d942b9814190a07a077840af2cdec008762b9ef808a9eeb1c62b
+hmacKey: 14766d8de94df2537339564807291c02dedb4cfa906d8f3619d2c1836e7e322e
+baseURL: http://localhost
+mysqlUserName: admin
+mysqlPassword: XrJfJaXM8KZxuZ2zsfx4nQ
+mysqlHost: localhost
+mysqlPath: gowebtemplate
+redisHost: localhost
