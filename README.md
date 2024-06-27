@@ -39,4 +39,4 @@ go run scripts/update_webhook/update_webhook.go
 cd client
 gatsby develop
 ```
-Once started, UI should be available at [http://localhost:8000/](http://localhost:8080/)
+Once started, UI should be available at [http://localhost:8080/](http://localhost:8080/)
